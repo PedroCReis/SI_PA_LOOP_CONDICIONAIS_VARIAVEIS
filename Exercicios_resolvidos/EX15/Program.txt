@@ -1,0 +1,17 @@
+
+        int pares = 0, impares = 0;
+
+        for (int i = 1; i <= 10; i++)
+        {
+            Console.Write("Digite o " + {i} + "número: ");
+            int n = int.Parse(Console.ReadLine());
+
+            if (n % 2 == 0)
+                pares++;
+            else
+                impares++;
+        }
+
+        Console.WriteLine("Pares: " + pares);
+        Console.WriteLine("Ímpares: " + impares);
+    

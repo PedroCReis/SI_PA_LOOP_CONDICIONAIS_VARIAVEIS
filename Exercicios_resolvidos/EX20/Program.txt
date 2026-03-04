@@ -1,0 +1,6 @@
+Console.Write("Digite um número: ");
+double n = double.Parse(Console.ReadLine());
+
+Console.WriteLine("Dobro: " + n * 2);
+Console.WriteLine("Triplo: " + n * 3);
+Console.WriteLine("Raiz quadrada: " + Math.Sqrt(n));

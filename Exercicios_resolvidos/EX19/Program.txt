@@ -1,0 +1,20 @@
+
+        Console.Write("Digite um número: ");
+        int n = int.Parse(Console.ReadLine());
+
+        bool primo = n >= 2;
+
+        for (int i = 2; i <= Math.Sqrt(n); i++)
+        {
+            if (n % i == 0)
+            {
+                primo = false;
+                break;
+            }
+        }
+
+        if (primo)
+            Console.WriteLine(n + " é primo.");
+        else
+            Console.WriteLine(n + " não é primo.");
+    
